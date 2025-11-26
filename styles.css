@@ -1,0 +1,346 @@
+body {
+    padding-top: 50px;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar-conteiner {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-list {
+    ul {
+        list-style: none;
+    }
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.styles-demo {
+    font-size: 30px;
+}
+
+.nav-menu {
+    ul {
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        list-style: none;
+    }
+}
+
+.search-input {
+    width: 0px;
+    opacity: 0;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.search-box:hover .search-input {
+    width: 150px;
+    opacity: 1;
+}
+
+.nav-item :hover {
+    color: rgb(19, 73, 223);
+    transition: 0.3s;
+}
+
+.demo {
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.section1 {
+    height: 100vh;
+    background-image: url("https://colorlibhub.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section1 img {
+    display: none;
+}
+
+.main-content1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.homeimg {
+    width: 100%;
+    height: 900px;
+}
+
+.Pageimg1 {
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+
+.text1page1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.text1page2 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.buttons-conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button1 {
+    width: 200px;
+    height: 60px;
+    background-color: rgb(104, 9, 182);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button2 {
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.section2 {
+    background-color: #ffffff;
+    position: relative;
+    z-index: 2;
+    padding-top: 80px;
+}
+
+.homeimg2 {
+    width: 650px;
+    height: 450px;
+}
+
+.Page2 {
+
+    width: 80%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Page2-conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.text2page1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 30px;
+
+}
+
+.text2page2 {
+    display: flex;
+    width: 300px;
+}
+
+.button2-conteiner {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.button3 {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(104, 9, 182);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(223, 219, 214);
+}
+
+.homeimg2 {
+    width: 650px;
+    height: 450px;
+}
+
+.Page2 {
+    width: 80%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Page2-conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.text2page1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 30px;
+
+}
+
+.text2page2 {
+    display: flex;
+    width: 300px;
+}
+
+.button2-conteiner {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.button3 {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(104, 9, 182);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* .section4 {
+    height: 50vh;
+    background-image: url("https://colorlibhub.com/wp-content/uploads/sites/59/2016/12/photo-1452723312111-3a7d0db0e024.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+} */
+.section4 img {
+    display: none;
+}
+
+.section4 {
+    height: 50vh;
+    background-image: url("https://colorlibhub.com/wp-content/uploads/sites/59/2016/12/photo-1452723312111-3a7d0db0e024.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.main-content4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.section5 {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.main-content5 {
+    position: static;
+    transform: none;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section5 img {
+    width: 100%;
+    padding: 0;
+}
